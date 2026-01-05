@@ -1,0 +1,31 @@
+RTX 3060 Ti detected → FP16 + tensor cores
+GPU: NVIDIA GeForce RTX 3060 Ti
+VRAM: 8.0 GB
+dtype: torch.float16
+
+--- 512x512 ---
+Total time: 5.30 s
+Time / step: 0.177 s
+Time / MP: 20.22 s
+
+--- 1024x1024 ---
+Total time: 20.10 s
+Time / step: 0.670 s
+Time / MP: 19.17 s
+
+
+when forced dtype float32:
+Unknown GPU → FP32 fallback
+GPU: NVIDIA GeForce RTX 3060 Ti
+VRAM: 8.0 GB
+dtype: torch.float32
+
+--- 512x512 ---
+Total time: 14.99 s
+Time / step: 0.500 s
+Time / MP: 57.19 s
+
+--- 1024x1024 ---
+Total time: 60.48 s
+Time / step: 2.016 s
+Time / MP: 57.68 s

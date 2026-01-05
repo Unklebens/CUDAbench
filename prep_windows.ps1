@@ -4,4 +4,5 @@ python -m venv bench_venv
 
 # Upgrade pip and install dependencies
 python -m pip install --upgrade pip
-python -m pip install torch numpy
+python -m pip install numpy
+pip install torch --index-url https://download.pytorch.org/whl/cu121
