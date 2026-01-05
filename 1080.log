@@ -1,0 +1,14 @@
+GTX 1080 Ti detected → FP32 (no tensor cores)
+GPU: NVIDIA GeForce GTX 1080 Ti
+VRAM: 10.9 GB
+dtype: torch.float32
+
+--- 512x512 ---
+Total time: 16.69 s
+Time / step: 0.556 s
+Time / MP: 63.69 s
+
+--- 1024x1024 ---
+Total time: 68.44 s
+Time / step: 2.281 s
+Time / MP: 65.26 s
